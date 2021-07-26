@@ -1,0 +1,32 @@
+.TodoListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.TodoListItem button{
+    background-color: lightgreen;
+    border: 1px solid black;
+    color: black;
+}
+
+.TodoListItem button:hover{
+    background-color: black;
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+.TodoListItem-button-trash{
+    margin-right: 0.4rem;
+}
+
+.done{
+    text-decoration: line-through;
+    color: rgb(105, 158, 105);
+}
+
+.important{
+    font-weight: 500;
+    color: rgb(0, 119, 0);
+}

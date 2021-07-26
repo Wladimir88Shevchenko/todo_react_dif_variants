@@ -1,0 +1,11 @@
+.App{
+    width: 800px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}

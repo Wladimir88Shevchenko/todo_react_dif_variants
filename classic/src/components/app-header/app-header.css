@@ -1,0 +1,11 @@
+.AppHeader h1{
+    font-size: 5rem;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+    .AppHeader h1{
+        font-size: 3rem;
+    }
+}

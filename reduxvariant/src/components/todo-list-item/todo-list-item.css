@@ -1,0 +1,20 @@
+.TodoListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.TodoListItem-button-trash{
+    margin-right: 0.4rem;
+}
+
+.done{
+    color: lightblue;
+    text-decoration: line-through;
+}
+
+.important{
+    font-weight: 600;
+    color: blue;
+}

@@ -1,0 +1,19 @@
+.AdditionPanel{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+.AdditionPanel input{
+    width: 50%;
+    padding: 0.6rem;
+    border-radius: 4%;
+    border: 1px solid lightblue;
+}
+
+.AdditionPanel button{
+    font-size: 1.8rem;
+    width: 6.7rem;
+}

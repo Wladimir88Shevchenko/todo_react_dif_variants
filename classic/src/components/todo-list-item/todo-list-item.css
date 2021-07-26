@@ -1,0 +1,28 @@
+.TodoListItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.TodoListItem span:hover{
+    cursor: pointer;
+}
+
+.TodoListItem-button-trash{
+    margin-right: 0.4rem;
+}
+
+.simpleTask{
+    color: rgb(59, 59, 59);
+}
+
+.didTask{
+    color: rgb(149, 149, 149);
+    text-decoration: line-through;
+}
+
+.importantTast{
+    color: black;
+    font-weight: 600;
+}
